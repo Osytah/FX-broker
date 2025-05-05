@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create Account</title>
+  <link rel="stylesheet" href="/style/style.css"> 
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Create Account</h2>
+    <form>
+      <div class="form-group">
+        <label for="UserName">UserName</label>
+        <input type="text" id="text" name="text" placeholder="username" required>
+      </div>
+      <div class="form-group">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Full name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="example@email.com." required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="tel" name="tel" placeholder="phone Number" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Input password" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Confirm Password</label>
+        <input type="password" id="password" name="password" placeholder="Confirm password" required>
+      </div>
+      <div class="form-group">
+        <label for="country">Country</label>
+        <select id="country" name="country" class="form-select" required>
+          <option value="" disabled selected>Select your country</option>
+          <option value="usa">United States</option>
+          <option value="canada">Canada</option>
+          <option value="uk">United Kingdom</option>
+          <option value="australia">Australia</option>
+          <option value="india">India</option>
+          <option value="germany">Germany</option>
+          <option value="france">France</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <button type="submit" class="form-button">Register</button>
+    </form>
+    <div class="form-footer">
+      Already have an account? <a href="/index1.html">login</a> 
+    </div>
+  </div>
+
+</body>
+</html>
